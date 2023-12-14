@@ -32,3 +32,4 @@ C:\Users\jerec\Desktop\Jeremy's Files (Windows)\WorkSpace\ElevatorSim\ElevatorSi
 C:\Users\jerec\Desktop\Jeremy's Files (Windows)\WorkSpace\ElevatorSim\ElevatorSim\ElevatorSim\obj\Debug\net8.0-windows\ElevatorSim.pdb
 C:\Users\jerec\Desktop\Jeremy's Files (Windows)\WorkSpace\ElevatorSim\ElevatorSim\ElevatorSim\obj\Debug\net8.0-windows\ElevatorSim.genruntimeconfig.cache
 C:\Users\jerec\Desktop\Jeremy's Files (Windows)\WorkSpace\ElevatorSim\ElevatorSim\ElevatorSim\obj\Debug\net8.0-windows\ref\ElevatorSim.dll
+C:\Users\jerec\Desktop\Jeremy's Files (Windows)\WorkSpace\ElevatorSim\ElevatorSim\ElevatorSim\bin\Debug\net8.0-windows\ElevatorSim.dll.config
