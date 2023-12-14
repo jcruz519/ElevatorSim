@@ -18,16 +18,14 @@ namespace ElevatorSimTests.ViewModelTests
         private void SetupSut()
         {
             _sut = Substitute.For<ITextReader>();
-            string test = ConfigurationManager.AppSettings["TextInputFile"].ToString();
-            _textInputFile = new StreamReader(ConfigurationManager.AppSettings["TextInputFile"]);
+            _textInputFile = new StreamReader("");
         }
 
         [Fact]
         private void TestEmptyFile_ShouldReturnEmptyList()
         {
             SetupSut();
-            _ = _sut.ReadInputFromFile(_textInputFile);
-            Assert.True(true);
+            Assert.Empty(_sut.ReadInputFromFile(_textInputFile));
         }
     }
 }

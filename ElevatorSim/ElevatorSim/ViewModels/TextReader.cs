@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,7 @@ namespace ElevatorSim.ViewModels
 
         public List<string> ReadInputFromFile(StreamReader TextInputFile) 
         {
+            string test = ConfigurationManager.AppSettings["TextInputFile"];
             return new List<string>();
         }
     }
