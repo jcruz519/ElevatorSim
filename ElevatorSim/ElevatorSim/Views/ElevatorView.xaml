@@ -16,31 +16,14 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <Rectangle Fill="Green" Stroke="Black" Grid.Row="0">
+        <Rectangle Stroke="Black" Grid.Row="0">
             <Rectangle.Style>
                 <Style TargetType="Rectangle">
                     <Style.Triggers>
-                        <DataTrigger Binding="{Binding ActiveFloor[0]}" Value="True">
+                        <DataTrigger Binding="{Binding CurrentFloor}" Value="1">
                             <Setter Property="Fill" Value="LightGreen"/>
                         </DataTrigger>
-                        <DataTrigger Binding="{Binding ActiveFloor[0]}" Value="False">
-                            <Setter Property="Fill" Value="Green"/>
-                        </DataTrigger>
-                    </Style.Triggers>
-                </Style>
-            </Rectangle.Style>
-        </Rectangle>
-        
-        <TextBlock Text="{Binding Test}" Grid.Row="0" TextAlignment="Center" FontSize="15" FontWeight="Bold"/>
-
-        <Rectangle Fill="Green" Stroke="Black" Grid.Row="0">
-            <Rectangle.Style>
-                <Style TargetType="Rectangle">
-                    <Style.Triggers>
-                        <DataTrigger Binding="{Binding ActiveFloor[1]}" Value="True">
-                            <Setter Property="Fill" Value="LightGreen"/>
-                        </DataTrigger>
-                        <DataTrigger Binding="{Binding ActiveFloor[1]}" Value="False">
+                        <DataTrigger Binding="{Binding CurrentFloor}" Value="2">
                             <Setter Property="Fill" Value="Green"/>
                         </DataTrigger>
                     </Style.Triggers>
@@ -48,7 +31,9 @@
             </Rectangle.Style>
         </Rectangle>
 
-        <Rectangle Fill="Green" Stroke="Black" Grid.Row="1">
+        <TextBlock Text="Elevator" Grid.Row="0" TextAlignment="Center" FontSize="15" FontWeight="Bold"/>
+
+        <Rectangle Stroke="Black" Grid.Row="1">
             <Rectangle.Style>
                 <Style TargetType="Rectangle">
                     <Style.Triggers>
@@ -63,7 +48,7 @@
             </Rectangle.Style>
         </Rectangle>
 
-        <Rectangle Fill="Green" Stroke="Black" Grid.Row="2">
+        <Rectangle Stroke="Black" Grid.Row="2">
             <Rectangle.Style>
                 <Style TargetType="Rectangle">
                     <Style.Triggers>
@@ -78,7 +63,7 @@
             </Rectangle.Style>
         </Rectangle>
 
-        <Rectangle Fill="Green" Stroke="Black" Grid.Row="3">
+        <Rectangle Stroke="Black" Grid.Row="3">
             <Rectangle.Style>
                 <Style TargetType="Rectangle">
                     <Style.Triggers>
@@ -93,14 +78,14 @@
             </Rectangle.Style>
         </Rectangle>
 
-        <Rectangle Fill="Green" Stroke="Black" Grid.Row="4">
+        <Rectangle Stroke="Black" Grid.Row="4">
             <Rectangle.Style>
                 <Style TargetType="Rectangle">
                     <Style.Triggers>
-                        <DataTrigger Binding="{Binding ActiveFloor[5]}" Value="True">
+                        <DataTrigger Binding="{Binding ActiveFloor[5]}" Value="true">
                             <Setter Property="Fill" Value="LightGreen"/>
                         </DataTrigger>
-                        <DataTrigger Binding="{Binding ActiveFloor[5]}" Value="False">
+                        <DataTrigger Binding="{Binding ActiveFloor[5]}" Value="false">
                             <Setter Property="Fill" Value="Green"/>
                         </DataTrigger>
                     </Style.Triggers>

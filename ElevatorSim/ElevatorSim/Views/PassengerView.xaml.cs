@@ -24,7 +24,6 @@ namespace ElevatorSim.Views
         public PassengerView()
         {
             InitializeComponent();
-            this.DataContext = ElevatorViewModel.InitElevator;
         }
     }
 }

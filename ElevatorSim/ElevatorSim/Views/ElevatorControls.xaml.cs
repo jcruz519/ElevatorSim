@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ElevatorSim.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace ElevatorSim.Views
         public ElevatorControls()
         {
             InitializeComponent();
+            this.DataContext = ElevatorViewModel.InitElevator;
         }
     }
 }
