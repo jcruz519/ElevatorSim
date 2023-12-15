@@ -1,0 +1,55 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows7.0
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ElevatorSim_hvxbdjfn_wpftmp
+build_property.ProjectDir = C:\Users\jerec\Desktop\Jeremy's Files (Windows)\WorkSpace\ElevatorSim\ElevatorSim\ElevatorSim\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/jerec/Desktop/Jeremy's Files (Windows)/WorkSpace/ElevatorSim/ElevatorSim/ElevatorSim/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ElevatorSim_hvxbdjfn_wpftmp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/jerec/Desktop/Jeremy's Files (Windows)/WorkSpace/ElevatorSim/ElevatorSim/ElevatorSim/MainWindow.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ElevatorSim_hvxbdjfn_wpftmp.MainWindow.xaml
+build_metadata.AdditionalFiles.TargetPath = MainWindow.xaml
+build_metadata.AdditionalFiles.RelativePath = MainWindow.xaml
+
+[C:/Users/jerec/Desktop/Jeremy's Files (Windows)/WorkSpace/ElevatorSim/ElevatorSim/ElevatorSim/Views/ElevatorControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ElevatorSim_hvxbdjfn_wpftmp.Views.ElevatorControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ElevatorControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ElevatorControls.xaml
+
+[C:/Users/jerec/Desktop/Jeremy's Files (Windows)/WorkSpace/ElevatorSim/ElevatorSim/ElevatorSim/Views/ElevatorFloor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ElevatorSim_hvxbdjfn_wpftmp.Views.ElevatorFloor.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ElevatorFloor.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ElevatorFloor.xaml
+
+[C:/Users/jerec/Desktop/Jeremy's Files (Windows)/WorkSpace/ElevatorSim/ElevatorSim/ElevatorSim/Views/ElevatorView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ElevatorSim_hvxbdjfn_wpftmp.Views.ElevatorView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ElevatorView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ElevatorView.xaml
+
+[C:/Users/jerec/Desktop/Jeremy's Files (Windows)/WorkSpace/ElevatorSim/ElevatorSim/ElevatorSim/Views/PassengerQueue.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ElevatorSim_hvxbdjfn_wpftmp.Views.PassengerQueue.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PassengerQueue.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PassengerQueue.xaml
+
+[C:/Users/jerec/Desktop/Jeremy's Files (Windows)/WorkSpace/ElevatorSim/ElevatorSim/ElevatorSim/Views/PassengerView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ElevatorSim_hvxbdjfn_wpftmp.Views.PassengerView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PassengerView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PassengerView.xaml

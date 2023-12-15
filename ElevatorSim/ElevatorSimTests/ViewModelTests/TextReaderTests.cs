@@ -13,11 +13,11 @@ namespace ElevatorSimTests.ViewModelTests
 {
     public class TextReaderTests
     {
-        private ITextReader? _sut;
+        private ITextFileInputReader? _sut;
         private StreamReader? _textInputFile;
         private void SetupSut()
         {
-            _sut = Substitute.For<ITextReader>();
+            _sut = Substitute.For<ITextFileInputReader>();
             _textInputFile = new StreamReader("");
         }
 
@@ -26,6 +26,18 @@ namespace ElevatorSimTests.ViewModelTests
         {
             SetupSut();
             Assert.Empty(_sut.ReadInputFromFile(_textInputFile));
+        }
+
+        [Fact]
+        private void TestWrongFile_ShouldThrowException()
+        {
+            SetupSut();
+        }
+
+        [Fact]
+        private void TestValidNonEmptyFile_ShouldReturnCorrectMovements()
+        {
+            SetupSut();
         }
     }
 }

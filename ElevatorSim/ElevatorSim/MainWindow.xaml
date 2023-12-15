@@ -4,9 +4,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ElevatorSim"
+        xmlns:views="clr-namespace:ElevatorSim.Views" xmlns:models="clr-namespace:ElevatorSim.Models" d:DataContext="{d:DesignInstance Type=models:Elevator}"
         mc:Ignorable="d"
         Title="ElevatorSim" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
 
+        <TextBlock Text="{Binding Test}"/>
+        <views:ElevatorView Grid.Column="0"/>
+        <views:PassengerQueue Grid.Column="1"/>
+        <views:ElevatorControls Grid.Column="2"/>
     </Grid>
 </Window>

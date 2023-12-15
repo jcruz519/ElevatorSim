@@ -133,13 +133,37 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows7.0",
           "dependencies": {
-            "DryIoc": {
+            "DevExpressMvvm": {
               "target": "Package",
-              "version": "[5.4.3, )"
+              "version": "[22.1.3, )"
             },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
+            },
+            "Extended.Wpf.Toolkit": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.77, )"
+            },
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
             },
             "log4net": {
               "target": "Package",

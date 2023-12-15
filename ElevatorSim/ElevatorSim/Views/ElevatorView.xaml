@@ -1,0 +1,111 @@
+﻿<UserControl x:Class="ElevatorSim.Views.ElevatorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ElevatorSim.Views"
+             xmlns:viewmodels="clr-namespace:ElevatorSim.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:ElevatorViewModel}"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Rectangle Fill="Green" Stroke="Black" Grid.Row="0">
+            <Rectangle.Style>
+                <Style TargetType="Rectangle">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding ActiveFloor[0]}" Value="True">
+                            <Setter Property="Fill" Value="LightGreen"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding ActiveFloor[0]}" Value="False">
+                            <Setter Property="Fill" Value="Green"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Rectangle.Style>
+        </Rectangle>
+        
+        <TextBlock Text="{Binding Test}" Grid.Row="0" TextAlignment="Center" FontSize="15" FontWeight="Bold"/>
+
+        <Rectangle Fill="Green" Stroke="Black" Grid.Row="0">
+            <Rectangle.Style>
+                <Style TargetType="Rectangle">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding ActiveFloor[1]}" Value="True">
+                            <Setter Property="Fill" Value="LightGreen"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding ActiveFloor[1]}" Value="False">
+                            <Setter Property="Fill" Value="Green"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Rectangle.Style>
+        </Rectangle>
+
+        <Rectangle Fill="Green" Stroke="Black" Grid.Row="1">
+            <Rectangle.Style>
+                <Style TargetType="Rectangle">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding ActiveFloor[2]}" Value="True">
+                            <Setter Property="Fill" Value="LightGreen"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding ActiveFloor[2]}" Value="False">
+                            <Setter Property="Fill" Value="Green"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Rectangle.Style>
+        </Rectangle>
+
+        <Rectangle Fill="Green" Stroke="Black" Grid.Row="2">
+            <Rectangle.Style>
+                <Style TargetType="Rectangle">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding ActiveFloor[3]}" Value="True">
+                            <Setter Property="Fill" Value="LightGreen"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding ActiveFloor[3]}" Value="False">
+                            <Setter Property="Fill" Value="Green"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Rectangle.Style>
+        </Rectangle>
+
+        <Rectangle Fill="Green" Stroke="Black" Grid.Row="3">
+            <Rectangle.Style>
+                <Style TargetType="Rectangle">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding ActiveFloor[4]}" Value="True">
+                            <Setter Property="Fill" Value="LightGreen"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding ActiveFloor[4]}" Value="False">
+                            <Setter Property="Fill" Value="Green"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Rectangle.Style>
+        </Rectangle>
+
+        <Rectangle Fill="Green" Stroke="Black" Grid.Row="4">
+            <Rectangle.Style>
+                <Style TargetType="Rectangle">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding ActiveFloor[5]}" Value="True">
+                            <Setter Property="Fill" Value="LightGreen"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding ActiveFloor[5]}" Value="False">
+                            <Setter Property="Fill" Value="Green"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Rectangle.Style>
+        </Rectangle>
+    </Grid>
+</UserControl>

@@ -7,7 +7,39 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\ElevatorControls.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ElevatorFloor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ElevatorView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\PassengerQueue.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\PassengerView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ElevatorControls.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ElevatorFloor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ElevatorView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PassengerQueue.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PassengerView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
